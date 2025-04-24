@@ -1,0 +1,13 @@
+ .primary-button {
+            color: #fff !important;
+            background-color: #007cba !important;
+            border: none;
+            /* padding: 10px 20px; */
+            text-decoration: none;
+            border-radius: 5px;
+            cursor: pointer;
+            display: inline-block;
+        }
+        .primary-button:hover {
+            background-color: #005a99;
+        }

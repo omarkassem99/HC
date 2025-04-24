@@ -1,0 +1,146 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Wrapper Styling */
+.wrap {
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Heading */
+.wrap h1, .wrap h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #6ABCEA;
+    padding-bottom: 10px;
+}
+
+/* Table Styling */
+.wp-list-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.wp-list-table th, .wp-list-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.wp-list-table th {
+    background: #f8f9fa;
+    font-weight: bold;
+}
+
+.wp-list-table tbody tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+.wp-list-table tbody tr:hover {
+    background: #eef5fd;
+}
+
+/* Form Styling */
+form {
+    margin-top: 20px;
+}
+
+form table {
+    margin-bottom: 20px;
+}
+
+form table th {
+    width: 200px;
+}
+
+form select, form textarea, form input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #f9f9f9;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+form textarea {
+    resize: vertical;
+    height: 100px;
+}
+tr td textarea{
+    height: auto;
+    resize: none;
+    font-size: 14px;
+    line-height: 1.5;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #f9f9f9;
+    box-sizing: border-box;
+}
+tr td input{
+    width: 100%;
+}
+
+form button {
+    background: #6ABCEA;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #5aa8d1;
+}
+
+/* Notice Styles */
+.notice {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.notice-success {
+    background: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.notice-error {
+    background: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .wrap {
+        padding: 10px;
+    }
+
+    .wp-list-table th, .wp-list-table td {
+        padding: 8px;
+    }
+
+    form table th {
+        width: auto;
+    }
+
+    form button {
+        width: 100%;
+        font-size: 14px;
+    }
+}

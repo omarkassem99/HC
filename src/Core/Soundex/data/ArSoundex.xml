@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data file="ArSoundex">
+  <!-- Improved Arabic Soundex mapping for better handling of phonetically similar letters -->
+  
+  <asoundexCode>
+    <!-- Grouping Alef, Waw, Ya, and vowels that do not significantly impact sound classification -->
+    <item id="0">ا</item>
+    <item id="0">و</item>
+    <item id="0">ي</item>
+    <item id="0">ع</item>
+    <item id="0">ح</item>
+    <item id="0">ه</item>
+    
+    <!-- Grouping ب (Ba), ف (Fa) as they are similar in phonetic output in some dialects -->
+    <item id="1">ب</item>
+    <item id="1">ف</item>
+    
+    <!-- Grouping all sibilants and similar-sounding letters together -->
+    <!-- ز (Zayn), س (Seen), ص (Saad), ذ (Dhal), ظ (Zha), ش (Sheen), ث (Thaa) -->
+    <item id="2">ز</item>
+    <item id="2">س</item>
+    <item id="2">ص</item>
+    <item id="2">ذ</item>
+    <item id="2">ظ</item>
+    <item id="2">ش</item>
+    <item id="2">ث</item>
+    
+    <!-- Grouping ق (Qaf), ك (Kaf) as these are often interchangeable -->
+    <item id="3">ق</item>
+    <item id="3">ك</item>
+    
+    <!-- Grouping similar dental/alveolar stops and emphatics together -->
+    <!-- د (Dal), ض (Dhaad), ط (Taa), ت (Taa marbutah), ث (Thaa), ظ (Zha) -->
+    <item id="4">د</item>
+    <item id="4">ض</item>
+    <item id="4">ط</item>
+    <item id="4">ت</item>
+    <item id="4">ث</item>
+    
+    <!-- Grouping velar/fricative sounds -->
+    <item id="5">خ</item>
+    <item id="5">غ</item>
+    
+    <!-- Remaining letters -->
+    <item id="6">ج</item>
+    <item id="6">ل</item>
+    <item id="7">م</item>
+    <item id="7">ن</item>
+    <item id="8">ر</item>
+  </asoundexCode>
+  
+  <aphonixCode>
+    <!-- Improved Aphonix mapping with similar grouping -->
+    <item id="0">ا</item>
+    <item id="0">و</item>
+    <item id="0">ي</item>
+    <item id="0">ع</item>
+    <item id="0">ح</item>
+    <item id="0">ه</item>
+    
+    <!-- Grouping Ba and Fa together -->
+    <item id="1">ب</item>
+    <item id="1">ف</item>
+    
+    <!-- Grouping sibilants and other phonetically close sounds -->
+    <item id="2">ز</item>
+    <item id="2">س</item>
+    <item id="2">ص</item>
+    <item id="2">ذ</item>
+    <item id="2">ظ</item>
+    <item id="2">ش</item>
+    <item id="2">ث</item>
+    
+    <!-- Grouping Qaf and Kaf -->
+    <item id="3">ق</item>
+    <item id="3">ك</item>
+    
+    <!-- Grouping dental/alveolar stops -->
+    <item id="4">د</item>
+    <item id="4">ض</item>
+    <item id="4">ط</item>
+    <item id="4">ت</item>
+    
+    <!-- Grouping velar/fricative sounds -->
+    <item id="5">خ</item>
+    <item id="5">غ</item>
+    
+    <!-- Remaining letters -->
+    <item id="6">ج</item>
+    <item id="6">ل</item>
+    <item id="7">م</item>
+    <item id="7">ن</item>
+    <item id="8">ر</item>
+  </aphonixCode>
+  
+  <!-- Transliteration map for handling phonetic and dialectic variations -->
+  <transliteration>
+    <!-- Adjusted transliteration to better capture possible sound similarities -->
+    <item id="ا">A</item>
+    <item id="ب">B</item>
+    <item id="ت">T</item>
+    <item id="ث">TH</item>
+    <item id="ج">J</item>
+    <item id="ح">H</item>
+    <item id="خ">KH</item>
+    <item id="د">D</item>
+    <item id="ذ">DH</item>
+    <item id="ر">R</item>
+    <item id="ز">Z</item>
+    <item id="س">S</item>
+    <item id="ش">SH</item>
+    <item id="ص">S</item>
+    <item id="ض">D</item>
+    <item id="ط">T</item>
+    <item id="ظ">Z</item>
+    <item id="ع">A</item>
+    <item id="غ">GH</item>
+    <item id="ف">F</item>
+    <item id="ق">Q</item>
+    <item id="ك">K</item>
+    <item id="ل">L</item>
+    <item id="م">M</item>
+    <item id="ن">N</item>
+    <item id="ه">H</item>
+    <item id="و">W</item>
+    <item id="ي">Y</item>
+  </transliteration>
+</data>

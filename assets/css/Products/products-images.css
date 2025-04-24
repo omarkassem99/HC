@@ -1,0 +1,47 @@
+#progress-container {
+    position: relative;
+}
+
+#progress-text {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+#error-messages-container {
+    max-height: 300px;
+    overflow-y: auto;
+    background: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+    display: none;
+}
+
+#error-messages-list li {
+    padding: 5px 0;
+    border-bottom: 1px solid #f5c6cb;
+}
+
+#close-error-messages {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #721c24;
+}
+
+#close-error-messages:hover {
+    color: #ff0000;
+}

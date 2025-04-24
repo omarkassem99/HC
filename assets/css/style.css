@@ -1,0 +1,261 @@
+.shopengine_add_to_list_action {
+    height: 35.4px;
+}
+
+.custom-shop-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.custom-shop-filters select {
+    flex: 1;
+    max-width: 250px;
+    padding: 10px 10px 10px 10px; /* Adjusted padding for more control */
+    padding-right: 30px; /* Move arrow left by reducing padding on the right */
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    appearance: none; /* Ensures consistent dropdown arrow styling across browsers */
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 6'%3E%3Cpath fill='%23333' d='M5 6L0 0h10L5 6z'/%3E%3C/svg%3E"); /* Custom dropdown arrow */
+    background-repeat: no-repeat;
+    background-position: right 10px center; /* Adjust arrow position */
+    background-size: 10px;
+}
+
+
+.custom-shop-filters select:hover,
+.custom-shop-filters select:focus {
+    border-color: #0071a1;
+    box-shadow: 0 0 5px rgba(0, 113, 161, 0.3);
+    outline: none;
+}
+
+.custom-shop-filters button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #0071a1;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.custom-shop-filters button:hover {
+    background-color: #005b82;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.custom-shop-filters button:active {
+    background-color: #004b6b;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.custom-shop-filters select:disabled {
+    background-color: #f1f1f1;
+    color: #999;
+    border-color: #ddd;
+}
+
+@media (max-width: 768px) {
+    .custom-shop-filters {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 10px;
+    }
+
+    .custom-shop-filters select {
+        max-width: 100%;
+    }
+
+    .custom-shop-filters button {
+        width: 100%;
+    }
+}
+
+/* Style the filter buttons container */
+.custom-shop-filters div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px; /* Adds spacing between the buttons */
+}
+
+/* Style the "Apply Filters" button */
+#apply-filters {
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Style the "Clear Filters" button */
+#clear-filters {
+    background-color: #d9534f; /* Bootstrap danger red */
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#clear-filters:hover {
+    background-color: #c9302c; /* Slightly darker red on hover */
+}
+
+
+
+.woocommerce-ordering select {
+    flex: 1;
+    max-width: 250px;
+    padding: 10px 10px 10px 10px; /* Adjusted padding for more control */
+    padding-right: 30px; /* Move arrow left by reducing padding on the right */
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    appearance: none; /* Ensures consistent dropdown arrow styling across browsers */
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 6'%3E%3Cpath fill='%23333' d='M5 6L0 0h10L5 6z'/%3E%3C/svg%3E"); /* Custom dropdown arrow */
+    background-repeat: no-repeat;
+    background-position: right 10px center; /* Adjust arrow position */
+    background-size: 10px;
+}
+
+
+.woocommerce-ordering select:hover,
+.woocommerce-ordering select:focus {
+    border-color: #0071a1;
+    box-shadow: 0 0 5px rgba(0, 113, 161, 0.3);
+    outline: none;
+}
+
+.woocommerce-ordering button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #0071a1;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.woocommerce-ordering button:hover {
+    background-color: #005b82;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.woocommerce-ordering button:active {
+    background-color: #004b6b;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.woocommerce-ordering select:disabled {
+    background-color: #f1f1f1;
+    color: #999;
+    border-color: #ddd;
+}
+
+
+.user-po-pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+    font-family: inherit; /* Use site's default font */
+}
+
+.user-po-pagination-container .page-number,
+.user-po-pagination-container .arrow {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+    border: 1px solid var(--primary-border-color, #ddd); /* Use site's primary border color */
+    border-radius: 6px; /* Rounded design */
+    text-decoration: none;
+    background-color: var(--secondary-bg-color, #fff); /* Use site's background color */
+    color: var(--text-color, #333); /* Use site's text color */
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    min-width: 36px;
+    height: 36px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.user-po-pagination-container .page-number:hover,
+.user-po-pagination-container .arrow:hover:not(.disabled) {
+    background-color: var(--hover-bg-color, #f0f0f0); /* Hover background */
+    border-color: var(--hover-border-color, #bbb); /* Hover border */
+    color: var(--hover-text-color, #000); /* Hover text color */
+}
+
+.user-po-pagination-container .page-number.current {
+    background-color: var(--gbl-primary-color, #0073aa); /* Active color */
+    color: var(--primary-text-color, white); /* Active text color */
+    border-color: var(--gbl-primary-color, #0073aa);
+    font-weight: bold;
+    transform: scale(1.05); /* Slight scaling effect */
+}
+
+.user-po-pagination-container .arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-bg-color, #f9f9f9);
+    border: 1px solid var(--primary-border-color, #ddd);
+    border-radius: 50%; /* Circular arrows */
+    min-width: 36px;
+    height: 36px;
+    transition: all 0.3s ease;
+}
+
+.user-po-pagination-container .arrow:hover {
+    background-color: var(--hover-bg-color, #e0e0e0);
+    color: var(--hover-text-color, #0073aa);
+    transform: scale(1.1);
+}
+
+.user-po-pagination-container .arrow.disabled {
+    background-color: #f5f5f5; /* Disabled background */
+    color: #aaa; /* Disabled text color */
+    border-color: #eee;
+    cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+    .user-po-pagination-container .page-number,
+    .user-po-pagination-container .arrow {
+        padding: 6px 10px;
+        font-size: 12px;
+        min-width: 32px;
+        height: 32px;
+    }
+}

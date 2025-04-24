@@ -1,0 +1,60 @@
+.toast {
+    visibility: hidden;
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    border-radius: 5px;
+    padding: 10px 20px 10px 50px;
+    position: fixed;
+    z-index: 9999;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 30px;
+    font-size: 17px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: visibility 0.5s, opacity 0.5s ease-in-out, bottom 0.5s;
+    opacity: 0;
+    min-height: 60px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    white-space: normal;
+    word-break: break-word;
+    max-width: 90%;
+}
+
+.toast.show {
+    visibility: visible;
+    opacity: 1;
+}
+
+.toast.success {
+    background-color: #28a745;
+}
+
+.toast.error {
+    background-color: #dc3545;
+    padding-left: 40px; /* Extra padding on the left for error to avoid overlap */
+}
+
+.toast.info {
+    background-color: #17a2b8;
+}
+
+.toast .close-btn {
+    position: absolute;
+    left: 10px; /* Positions close button on the left with space from the border */
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    padding: 0; /* Remove padding to center-align the close icon */
+}
